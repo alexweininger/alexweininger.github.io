@@ -1,0 +1,72 @@
+.navbar ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+}
+.navbar li{
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    background: white;
+}
+
+.navbar li a:hover{
+    background: hotpink;
+    color: white;
+}
+
+body{
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+div.navbar ul li.active a {
+    background: hotpink;
+    color: white;
+}
+.navbar ul li img{
+    height: 40px;
+}
+.footer{
+    background: lightgrey;
+}
+.sidebar.list ul{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+}
+
+.sidebar.left{
+    padding: none;
+    text-align: left;
+}
+div.post{
+    margin: 0px;
+    border: 1px solid pink;
+    padding: 10px;
+}
+.main{
+    padding: none;
+    min-height: 500px;
+}
+.col-md-6{
+    padding: none;
+}
+div.sidebar.right, div.sidebar.left{
+    border: 1px solid pink;
+}
+.post-title{
+    font-size: 24px;
+}
+.post-text{
+    font-size: 18px;
+}
